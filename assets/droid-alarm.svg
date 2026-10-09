@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A small robot crouched defensively under a warning light, arms raised">
+  <path d="M100 2 L112 22 L88 22 Z" fill="none" stroke="#ffb454" stroke-width="5" stroke-linejoin="round"/>
+  <line x1="100" y1="10" x2="100" y2="15" stroke="#ffb454" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="100" cy="19" r="1.4" fill="#ffb454"/>
+  <line x1="100" y1="34" x2="100" y2="26" stroke="#3ef07f" stroke-width="6" stroke-linecap="round"/>
+  <rect x="70" y="34" width="60" height="50" rx="14" fill="none" stroke="#3ef07f" stroke-width="6"/>
+  <circle cx="88" cy="60" r="8" fill="none" stroke="#3ef07f" stroke-width="5"/>
+  <circle cx="90" cy="60" r="2.2" fill="#3ef07f"/>
+  <circle cx="112" cy="60" r="8" fill="none" stroke="#3ef07f" stroke-width="5"/>
+  <circle cx="114" cy="60" r="2.2" fill="#3ef07f"/>
+  <rect x="66" y="98" width="68" height="64" rx="12" fill="none" stroke="#3ef07f" stroke-width="6"/>
+  <circle cx="80" cy="114" r="3" fill="#3ef07f"/>
+  <circle cx="120" cy="114" r="3" fill="#3ef07f"/>
+  <path d="M66 116 Q48 100 58 82" fill="none" stroke="#3ef07f" stroke-width="6" stroke-linecap="round"/>
+  <path d="M134 116 Q152 100 142 82" fill="none" stroke="#3ef07f" stroke-width="6" stroke-linecap="round"/>
+  <line x1="82" y1="160" x2="78" y2="196" stroke="#3ef07f" stroke-width="6" stroke-linecap="round"/>
+  <line x1="118" y1="160" x2="122" y2="196" stroke="#3ef07f" stroke-width="6" stroke-linecap="round"/>
+  <rect x="66" y="196" width="24" height="10" rx="4" fill="#3ef07f"/>
+  <rect x="110" y="196" width="24" height="10" rx="4" fill="#3ef07f"/>
+</svg>

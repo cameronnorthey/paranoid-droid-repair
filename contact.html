@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Paranoid Droid Repair</title>
+<meta name="description" content="Get a free repair quote for your phone, laptop, or game console. Walk-ins welcome, or book ahead.">
+<meta name="robots" content="noindex, nofollow">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="term-chrome">
+  <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+  <span class="path">paranoiddroid.repair &mdash; zsh</span>
+</div>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo"><span class="logo-cmd">$</span> paranoid_droid<span class="logo-amber">_repair</span><span class="logo-cursor"></span></a>
+    <nav class="site-nav">
+      <a href="index.html">home</a>
+      <a href="services.html">services</a>
+      <a href="about.html">about</a>
+      <a href="contact.html" class="nav-cta current">[ get_quote ]</a>
+    </nav>
+    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="nav-overlay"></div>
+
+<section class="hero" style="padding:64px 0 56px;">
+  <div class="container droid-hero-wrap">
+    <img class="droid-corner" src="assets/droid-jitter.svg" alt="A small robot vibrating nervously with wide eyes" style="width:96px;top:-8px;right:6px;">
+    <span class="eyebrow">mail --compose</span>
+    <h1 style="font-size:2.5rem;"><span class="prompt-arrow prompt-arrow-accent">&gt;</span> Let's take a look.</h1>
+    <p class="lede">Tell us what's going on and we'll follow up with a free diagnosis time — or just walk in during shop hours.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="contact-layout">
+      <form class="pd-contact-form" action="#" method="POST">
+        <div class="form-row">
+          <div class="field-group">
+            <label for="pd-name">Name</label>
+            <input type="text" id="pd-name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field-group">
+            <label for="pd-email">Email</label>
+            <input type="email" id="pd-email" name="email" autocomplete="email" required>
+          </div>
+        </div>
+        <div class="field-group">
+          <label for="pd-device">What needs fixing?</label>
+          <select id="pd-device" name="device">
+            <option>Phone or Tablet</option>
+            <option>Laptop or Desktop</option>
+            <option>Game Console</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="field-group">
+          <label for="pd-message">What's going on?</label>
+          <textarea id="pd-message" name="message" rows="5" placeholder="Cracked screen, won't turn on, weird noises — whatever it is."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">./send-it-over</button>
+      </form>
+
+      <div class="contact-side" style="position:relative;">
+        <img class="droid-corner" src="assets/droid-hiding.svg" alt="A small robot peeking over the top of a crate" style="width:84px;top:-52px;right:0;">
+        <div class="block">
+          <h3>Email</h3>
+          <p><a href="mailto:trustus@paranoiddroid.com">trustus@paranoiddroid.com</a></p>
+        </div>
+        <div class="block">
+          <h3>Shop Hours</h3>
+          <p>Mon&ndash;Sat: 10am&ndash;7pm<br>Sunday: Closed</p>
+        </div>
+        <div class="block">
+          <h3>Visit Us</h3>
+          <p>1455 N Dupont Hwy<br>Unit 3<br>Dover, DE 19901</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-brand">paranoid_droid_repair</div>
+    <div class="foot-links">
+      <a href="index.html">home</a>
+      <a href="services.html">services</a>
+      <a href="about.html">about</a>
+      <a href="contact.html">contact</a>
+    </div>
+    <div style="color:var(--text-dim);font-size:0.85rem;">&copy; 2026 paranoid_droid_repair. all rights reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
